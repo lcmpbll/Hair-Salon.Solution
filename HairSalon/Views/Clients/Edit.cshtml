@@ -16,15 +16,17 @@
         @Html.EditorFor(model => model.Name)
       </div>
       <div class="label">
-        @Html.LabelFor(model => model.StylistId)
+        @Html.LabelFor(model => model.Name)
         @Html.DropDownList("StylistId")
       </div>
 
-      <input type="submit" value="Save" />
+      <input class="btn" type="submit" value="Save" />
     </div>
   }
 </div>
 
 <div class="buttons">
   <btn>@Html.ActionLink("View all Clients", "Index")</btn>
+  <br>
+  <btn>@Html.ActionLink("Home", "Index", "Index")</btn>
 </div>
