@@ -1,6 +1,5 @@
 .buttons {
   transition-duration: 0.4s;
-  color: #fda5a4;
   background-color: #fda5a4;
   border: 10px transparent;
   width: 200px;
@@ -12,9 +11,11 @@
   position: fixed; 
   font-family: 'Karla', sans-serif;
   text-transform: uppercase;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-left: 10px;
-  margin-left: auto;
+  margin-top: 10px;
+  font-size: larger;
+  letter-spacing: 3px;
 }
 
 .btn:hover {
@@ -66,13 +67,14 @@ form{
   margin: auto;
   margin-left: 30%;
   margin-top: 50px;
-
   display: block;
-  
-  /* margin: auto; */
-  
   float: center;
-  
+
 }
 
+a{
+  color:#2B394A;
+  font-weight: 700;
+  font-size: 13px;
+}
 
