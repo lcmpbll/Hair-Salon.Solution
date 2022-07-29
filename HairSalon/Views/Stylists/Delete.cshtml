@@ -3,7 +3,7 @@
 }
 @model HairSalon.Models.Stylist
 <div class="jumbotron">
-  <h1>Delete @Html.DisplayFor(model => model.Name) </h1>
+  <h1>Delete Stylist: @Html.DisplayFor(model => model.Name) </h1>
 </div>
 <div class="content">
   @using(Html.BeginForm())
@@ -13,5 +13,7 @@
 </div>
 
 <div class="buttons">
-  <btn>@Html.ActionLink("See all stylists", "Index")</btn>
+  <btn>@Html.ActionLink("View all stylists", "Index")</btn>
+  <br>
+  <btn>@Html.ActionLink("Home", "Index", "Home")</btn>
 </div>
