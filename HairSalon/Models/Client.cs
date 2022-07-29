@@ -1,9 +1,10 @@
-namespace ProjectName.Models
+namespace HairSalon.Models
 {
-  public class ClassOne
+  public class Client
   {
-    public int ClassOneId { get; set; }
-    public int ClassTwo { get; set; }
-    public virtual ClassTwo ClassTwo { get; set; }
+    public int ClientId { get; set; }
+    public string Name { get; set; }
+    public int StylistId{ get; set; }
+    public virtual Stylist Stylist { get; set; }
   }
 }
