@@ -1,5 +1,7 @@
+
 .buttons {
   transition-duration: 0.4s;
+  color: #C5D0DD;
   background-color: #fda5a4;
   border: 10px transparent;
   width: 200px;
@@ -19,9 +21,14 @@
 }
 
 .btn:hover {
+
+  border-radius: 8px;
   background-color: #fda5a4;
-  color: #fda5a4;
+  color: #2B394A;
+
 }
+
+
 
 .jumbotron{
   font-family: 'Karla', sans-serif;
