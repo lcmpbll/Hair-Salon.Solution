@@ -18,7 +18,9 @@
         @Html.TextBoxFor(model => model.Name)
     </div>
     <div class="label">
-      @Html.LabelFor(model => model.Stylist)
+      <div class="validation-summary-valid" data-valmsg-summary="true">
+        @Html.LabelFor(model => model.Stylist)
+      </div>
     </div>
     @Html.DropDownList("StylistId")
   
