@@ -39,7 +39,7 @@ _This is an MVC application that was built using C#. The purpose of this applica
 <li>Open a shell program and navigate to your desktop.
 <li>Clone the repository for this project using the "git clone" command and including the copied URL.
 <li>While still in the shell program, navigate to the root directory of the newly created file named "HairSalon.Solution".
-<li>From the root directory, navigate to the "BestRestuarants" directory.
+<li>From the root directory, navigate to the "HairSalon" directory.
 <li>Move onto "SQL Workbench" instructions below to re-create database necessary to run this project.
 <br>
 </details>
@@ -47,7 +47,7 @@ _This is an MVC application that was built using C#. The purpose of this applica
 <details>
 <summary><strong>SQL Workbench Configuration</strong></summary>
 <ol>
-<li>Create an appsetting.json file in the "BestRestaurants" directory of the project*  
+<li>Create an appsetting.json file in the "HairSalon" directory of the project*  
    <pre>Hair-Salon.Solution
    └── HairSalon
     └── appsetting.json</pre>
