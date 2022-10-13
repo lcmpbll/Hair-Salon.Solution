@@ -31,7 +31,7 @@
 
 _This is an MVC application that was built using C#. The purpose of this application is to allow the user to keep track of the current stylists and their clients for a salon.. When the application runs, the user can add a stylist. After the type is inputted using the "add" button, users can then add clients to that specific stylist. The client details support a name and description. Once the client is added, it will appear under that specific stylist list._
 
-_Check out this app by clicking [here](http://lcmpbll.github.io/Hair-Salon.Solution)
+_Check out this app by clicking [here](http://lcmpbll.github.io/Hair-Salon.Solution)_
 
 ---
 ## Setup and Installation Requirements
